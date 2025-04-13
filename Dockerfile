@@ -7,6 +7,6 @@ ENV PATH="/root/.local/bin/:$PATH"
 ADD ./pyproject.toml /app/
 ADD ./uv.lock /app/
 WORKDIR /app
-RUN uv sync --frozen
+RUN uv sync
 
 COPY . .
