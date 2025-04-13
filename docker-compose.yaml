@@ -5,3 +5,5 @@ services:
     build:
       context: .
     command: bash serverrun.sh
+    ports:
+      - "9000:8000"
