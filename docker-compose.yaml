@@ -4,4 +4,4 @@ services:
   app:
     build:
       context: .
-    command: source /app/.venv/bin/activate && python dockertest.py
+    command: python dockertest.py
