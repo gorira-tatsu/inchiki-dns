@@ -4,4 +4,4 @@ services:
   app:
     build:
       context: .
-    command: fastapi dev server.py
+    command: bash serverrun.sh
