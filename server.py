@@ -15,7 +15,7 @@ hosts = [
   }
 ]
 
-with open("./encryptkey", "r") as f:
+with open("./keys/encryptkey", "r") as f:
   encryptkey_data = f.read()
 
 async def encrypt_data(data, public_key):
