@@ -1,1 +1,3 @@
-print("hello")
+import fastapi
+
+print("ok")
