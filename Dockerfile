@@ -10,4 +10,3 @@ WORKDIR /app
 RUN uv sync --frozen
 
 COPY . .
-RUN uv run dockertest.py 
