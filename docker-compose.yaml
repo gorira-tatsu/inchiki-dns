@@ -4,4 +4,4 @@ services:
   app:
     build:
       context: .
-    command: python dockertest.py
+    command: fastapi dev server.py
